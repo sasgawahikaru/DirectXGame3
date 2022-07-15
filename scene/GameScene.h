@@ -59,4 +59,6 @@ class GameScene {
 	ViewProjection viewProjection_;
 
 	DebugCamera* debugCamera_ = nullptr;
+
+	float DtoR(float d) { return MathUtility::PI / (180 / d); }
 };
